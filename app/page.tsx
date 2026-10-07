@@ -319,7 +319,7 @@ export default function Home() {
       {/* ── MARKET INTELLIGENCE ───────────────────────────── */}
       <section className="prsp-market-section">
         <div className="container" style={{ display: 'contents' }}>
-          <div className="prsp-market-sidebar" style={{ paddingLeft: '40px' }}>
+          <div className="prsp-market-sidebar">
             <div className="prsp-market-label">Market Intelligence</div>
             <div className="prsp-market-index-title">
               Why this market exists now
@@ -328,7 +328,7 @@ export default function Home() {
               AI model developers have exhausted public internet data. Operational records from private businesses are the next frontier.
             </div>
           </div>
-          <div className="prsp-market-list" style={{ paddingRight: '40px' }}>
+          <div className="prsp-market-list">
             {news.map((item) => (
               <div className="prsp-market-row" key={item.source}>
                 <div className="prsp-market-source">{item.source}</div>
